@@ -1,0 +1,10 @@
+package it.project;
+
+import it.project.classes.Person;
+
+public class starter {
+    public static void main(String[] args){
+        Person persona1 = new Person();
+        System.out.println(persona1.getLifeStage());
+    }
+}
